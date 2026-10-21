@@ -7,7 +7,7 @@ import joblib
 
 # load the model
 # model = joblib.load('/Users/macbookpro/Desktop/ML & DL & GENAI Projects/Loan Approval Prediction/loan_approval_model.sav')
-model = joblib.load('/Users/macbookpro/Desktop/ML & DL & GENAI Projects/Loan Approval Prediction/lr_loan_approval_model.sav')
+model = joblib.load('lr_loan_approval_model.sav')
 
 # app title
 st.title("Loan Approval Predictive System")

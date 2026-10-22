@@ -47,7 +47,10 @@ with col2:
     # Education = st.number_input("Education")
 
 with col3:
-    Self_Employed = st.number_input("Self-Employed")
+    Self_Employed = st.selectbox(
+        "Self-Employed",
+        ["No", "Yes"]
+    )
 
 with col1:
     ApplicantIncome = st.number_input("Applicant Income")
